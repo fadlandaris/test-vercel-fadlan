@@ -1,0 +1,31 @@
+/* Import Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Tailwind CSS Directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles using the Tailwind configuration */
+
+/* Font Family */
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Example custom components */
+.button-primary {
+  background-color: var(--color-primary); /* You might need to define these variables elsewhere or use Tailwind classes directly */
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
+
+.button-secondary {
+  background-color: var(--color-secondary); /* Same as above */
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
